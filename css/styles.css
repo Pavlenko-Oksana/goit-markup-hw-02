@@ -1,0 +1,53 @@
+/* color основной  #212121 */
+/* color дополнительный #757575 */
+/* color белый #FFFFFF */
+/* color акцент #2196F3 */
+/* color фона #FFFFFF */
+/* color фона вторичный #F5F4FA */
+/* color фона футер #2F303A */
+:root{
+--primary-text-color: #212121;
+--secondary-text-color:#757575;
+--primary-background-color:#FFFFFF;
+--secondary-background-color:#F5F4FA;
+--footer-background-color:#2F303A;
+--accent-color:#2196F3;
+--accent-color-white:#FFFFFF;
+
+}
+body{ 
+background-color:#FFFFFF;
+color: var(--primary-text-color);
+
+
+}
+ul{
+ list-style: none;
+}
+
+.site-nav .link,
+.contacts-nav .link{
+ color:var(--primary-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus,
+.contacts-nav .link:focus,
+.contacts-nav .link:hover
+{
+color:var(--accent-color);
+}
+.section-paragraph,
+.section-profession,
+.section-customer{
+    color:var(--secondary-text-color);
+}
+
+.button{
+  color:var(--primary-text-color);
+  background-color: var(--secondary-background-color);  
+}
+.button:hover,
+.button:focus{
+ background-color:var(--accent-color);
+ color:var(--accent-color-white);
+}
