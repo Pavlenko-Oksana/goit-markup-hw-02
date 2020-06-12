@@ -121,7 +121,13 @@ color: #212121;
  text-align: center;
  text-transform: uppercase;
 }
+.team{
+  background-color: var(--secondary-background-color);
+}
 
+footer{
+  background-color: var(--footer-background-color);
+}
 /* button */
 .button{
   color:var(--primary-text-color);
