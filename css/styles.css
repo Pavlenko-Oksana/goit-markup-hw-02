@@ -55,10 +55,10 @@ color: var(--accent-color-white);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.8;
-display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+border-radius: 4px;
 }
 
 .title-hero{
@@ -69,7 +69,7 @@ letter-spacing: 0.06em;
  letter-spacing: 0.06em;
  text-transform: uppercase;
  color: #FFFFFF; 
- background-color: violet;
+ background-color: var(--footer-background-color);
 
 }
 
@@ -86,10 +86,15 @@ letter-spacing: 0.06em;
 .site-nav .link:hover, 
 .site-nav .link:focus,
 .contacts-nav .link:focus,
-.contacts-nav .link:hover
-{
+.contacts-nav .link:hover{
 color:var(--accent-color);
 }
+
+.site-nav .current{
+ color: var(--accent-color);
+}
+
+
 
 /* section */
 .section-paragraph,
@@ -126,7 +131,7 @@ color: #212121;
  font-weight: 400;
  font-size: 18px;
  line-height: 1.5;
- background-color: violet;
+ background-color: var(--accent-color);
 }
 
 .section-services{
@@ -136,7 +141,7 @@ color: #212121;
  line-height: 1.14;
  text-align: center;
  text-transform: uppercase;
- background-color: violet;
+ background-color: var(--footer-background-color);
 }
 .team{
   background-color: var(--secondary-background-color);
@@ -186,6 +191,7 @@ footer{
   color:var(--primary-text-color);
   background-color: var(--secondary-background-color);  
   font-family: inherit;
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus{
